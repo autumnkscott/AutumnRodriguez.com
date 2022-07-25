@@ -9,22 +9,24 @@
     <title>Autumn Rodriguez - Email and Web Developer</title>
 </head>
 <body>
-    <!-- Nav Bar  -->
+<!-- Nav Bar  -->
     <header>
+        <a href="index.html" class="main-logo"><h2>A.</h2></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="toggle-label">
+            <span></span>
+        </label>
         <nav>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <div class="logo-anim">
-               <a href="index.html"><div class="main-logo"><h2>A.</h2></div></a>
-                <!-- <div class="hover-logo"><a href="index.html">Back to Home</a></div> -->
+            <div class="link-wrapper">
+                <a href="#projects"><p class="nav-anim">Projects</p></a>
+                <a href="#skills"><p class="nav-anim">Skills</p></a>
+                <a href="#contact" class="cta"><p>Hire Me</p></a>
             </div>
-            <a href="#projects"><p class="nav-anim">Projects</p></a>
-            <a href="#welcome-section"><p class="nav-anim">About</p></a>
-            <a href="#contact" class="button"><p>Hire Me</p></a>
-            <label for="nav-toggle" class="toggle-label">
         </nav>
+
     </header>
     
-    <!-- Welcome Section -->
+<!-- Welcome Section -->
     <section id="welcome-section">
         <div class="img-container">
             <img class="img_of_me"src="Assets/IMG_8718.jpeg" alt="">
@@ -45,7 +47,7 @@
         </div>
     </section>
 
-    <!-- My Skills -->
+<!-- My Skills -->
     <section id="skills">
         <h2>MY SKILLS.</h2>
         <hr class="top-line">
@@ -66,6 +68,14 @@
                                 <img src="Assets/Checkmark.png" alt="Checkmark">
                             </td>
                             <td>
+                                <p>Email Development</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="Assets/Checkmark.png" alt="Checkmark">
+                            </td>
+                            <td>
                                 <p>Adobe Creative Suites</p>
                             </td>
                         </tr>
@@ -74,15 +84,7 @@
                                 <img src="Assets/Checkmark.png" alt="Checkmark">
                             </td>
                             <td>
-                                <p>Microsoft Office</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="Assets/Checkmark.png" alt="Checkmark">
-                            </td>
-                            <td>
-                                <p>Git</p>
+                                <p>Litmus</p>
                             </td>
                         </tr>
                     </table>
@@ -132,69 +134,71 @@
         </table>
     </section>
 
- <!-- PROJECTS -->
-<section id="projects">
-    <p class="gradient-a">A.</p>
-    <h3>PROJECTS</h3>
-    <p class="subtitle">always improving my skill</p>
+<!-- PROJECTS -->
+    <section id="projects">
+        <p class="gradient-a">A.</p>
+        <h3>PROJECTS</h3>
+        <p class="subtitle">always improving my skill</p>
 
 
-    <div id="project-grid">
-        <div class="preview-wrapper" width="300" height="600">Transactional
-            <img src="Assets/TheOrdinary-Transactional.html.png" alt="Transactional email from 'The Ordinary'" width="225" height="auto">
+        <div id="project-grid">
+            <div class="preview-wrapper" width="300" height="600">Transactional
+                <img src="Assets/TheOrdinary-Transactional.html.png" alt="Transactional email from 'The Ordinary'" width="225" height="auto">
+            </div>
+            <div class="preview-wrapper">Newsletter
+                <img src="">
+            </div>
+            <div class="preview-wrapper">Promotional
+                <img src="Assets/veggie-shop-email.png" alt="Promotional email from 'The Veggie Shop'" width="225" height="auto">
+            </div>
+            <div class="landing-pages">Landing Pages
+                <img src="Assets/veggie-shop-landing.png" alt="" width="100%" height="auto">
+            </div>
         </div>
-        <div class="preview-wrapper">Newsletter
-            <img src="">
-        </div>
-        <div class="preview-wrapper">Promotional
-            <img src="Assets/veggie-shop-email.png" alt="Promotional email from 'The Veggie Shop'" width="225" height="auto">
-        </div>
-        <div class="landing-pages">Landing Pages
-            <img src="Assets/veggie-shop-landing.png" alt="" width="100%" height="auto">
-        </div>
-    </div>
-</section>
+    </section>
 
 <!-- CONTACT -->
 
-<section id="contact">
+    <section id="contact">
 
-    <h1>Let's Chat.</h1>
-    <hr>
+        <h1>Let's Chat.</h1>
+        <hr>
 
-    <div class="social-wrapper">
-        <a href="mailto:autumnkscott@gmail.com" target="_blank"><img class="email" src="Assets/email.png" alt="Contact by Email"></a>
-        <a href="https://www.facebook.com/autumn.scott.737" target="_blank"><img src="Assets/f-book.png" alt="Facebook profile"></a>
-        <a href="https://www.linkedin.com/in/autumn-scott-031008127/" target="_blank"><img src="Assets/linkedin.png" alt="Linkedin Profile"></a>
-        <a href="https://github.com/autumnkscott" target="_blank"><img src="Assets/github.png" alt="Github"></a>
-        <a href="https://www.instagram.com/autumn.atically/?hl=en" target="_blank"><img src="Assets/instagram.png" alt="Instagram"></a>
-    </div>
+        <div class="social-wrapper">
+            <a href="mailto:autumnkscott@gmail.com" target="_blank"><img class="email" src="Assets/email.png" alt="Contact by Email"></a>
+            <a href="https://www.facebook.com/autumn.scott.737" target="_blank"><img src="Assets/f-book.png" alt="Facebook profile"></a>
+            <a href="https://www.linkedin.com/in/autumn-scott-031008127/" target="_blank"><img src="Assets/linkedin.png" alt="Linkedin Profile"></a>
+            <a href="https://github.com/autumnkscott" target="_blank"><img src="Assets/github.png" alt="Github"></a>
+            <a href="https://www.instagram.com/autumn.atically/?hl=en" target="_blank"><img src="Assets/instagram.png" alt="Instagram"></a>
+        </div>
 
-    <section id="form">
-        <form method="post" action="https://www.actionforms.io/e/r/autumn-scott-test">
-            <div class="input-wrap">
-                <input type="text" name="contact" placeholder="NAME" required>
-                <input type="email" name="contact" placeholder="EMAIL" required>
-            </div>
-            <textarea placeholder="YOUR MESSAGE" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <section id="form">
+            <form method="post" action="https://www.actionforms.io/e/r/autumn-scott-test">
+                <div class="input-wrap">
+                    <input type="text" name="contact" placeholder="NAME" required>
+                    <input type="email" name="contact" placeholder="EMAIL" required>
+                </div>
+                <textarea placeholder="YOUR MESSAGE" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
     </section>
 
-</section>
 
-
-    <!-- Footer -->
-    <section id="footer">
-        <div>
+<!-- Footer -->
+    <footer id="footer">
+        <div class="footer-wrap">
             <h2>Autumn Scott</h2>
             <hr>
-                <a href="index.html"><p class="footer-anim">About</p></a>
-                <a href="Contact.html"><p class="footer-anim">Contact</p></a>
-                <a href=""><p class="footer-anim">Projects</p></a>
-        </div>
+            <div class="footer-links">
+                <a href="index.html"><p>About</p></a>
+                <a href="#contact"><p>Contact</p></a>
+                <a href="#projects"><p>Projects</p></a>
+            </div>
             <p class="copy-r">&copyAutumn Scott 2022</p>
-    </section>
+        </div>
+    </footer>
 
 </body>
 </html>
